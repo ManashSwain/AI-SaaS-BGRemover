@@ -1,4 +1,5 @@
 import Navbar from "./components/Navbar"
+import Slider from "./components/Slider"
 
 function App() {
 
@@ -8,6 +9,7 @@ function App() {
       Hello world!
     </h1>
     <Navbar/>
+    <Slider/>
     </>
   )
 }
