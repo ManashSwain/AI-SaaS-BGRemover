@@ -1,4 +1,3 @@
-import React from 'react'
 import Hero from '../components/Hero'
 import SliderContainer from '../components/SliderContainer'
 
@@ -7,7 +6,6 @@ const HomePage = () => {
    <>
    <Hero/>
    <SliderContainer/>
-
    </>
   )
 }

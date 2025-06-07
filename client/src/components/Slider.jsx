@@ -4,7 +4,7 @@ import { ReactCompareSlider, ReactCompareSliderImage } from 'react-compare-slide
 const Slider = () => {
   return (
     <>
-     <div className='rounded-lg border-gray-700' style={{ width: '100%', height: '100%', flexGrow: 1 }}>
+     <div  style={{ width: '100%', height: '100%', flexGrow: 1 }}>
       <ReactCompareSlider
         itemOne={
           <ReactCompareSliderImage
