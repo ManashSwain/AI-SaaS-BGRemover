@@ -3,6 +3,8 @@ import React from "react";
 const TestimonialCard = () => {
   return (
     <>
+    <div className="bg-green-900">
+        <h1>They love us. You will too.</h1>
       <figure className="max-w-screen-md mx-auto text-center">
         <svg
           className="w-10 h-10 mx-auto mb-3 text-gray-400 dark:text-gray-600"
@@ -36,6 +38,7 @@ const TestimonialCard = () => {
           </div>
         </figcaption>
       </figure>
+      </div>
     </>
   );
 };
