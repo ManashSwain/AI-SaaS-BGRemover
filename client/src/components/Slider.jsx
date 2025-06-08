@@ -1,10 +1,9 @@
-import React from 'react';
 import { ReactCompareSlider, ReactCompareSliderImage } from 'react-compare-slider';
 
 const Slider = () => {
   return (
     <>
-     <div  style={{ width: '100%', height: '100%', flexGrow: 1 }}>
+     <div style={{ width: '100%', height: '100%', flexGrow: 1 }}>
       <ReactCompareSlider
         itemOne={
           <ReactCompareSliderImage
@@ -28,7 +27,7 @@ const Slider = () => {
             }}
           />
         }
-        style={{ width: '100%', height: '50%' }}
+        style={{ width: '100%', height: '100%' }}
       />
       
     </div>
