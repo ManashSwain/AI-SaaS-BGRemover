@@ -3,7 +3,7 @@ import React from "react";
 const TestimonialCard = () => {
   return (
     <>
-      <div className="bg-yellow-500 py-8">
+      <div className="bg-yellow-400 py-8">
         <h1 className=" text-center mb-4 text-3xl font-extrabold tracking-tight leading-none text-gray-700 md:text-4xl lg:text-5xl">
           They love us. You will too.
         </h1>
